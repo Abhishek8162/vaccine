@@ -7,7 +7,7 @@
     border-radius: 5px;
     color:rgb(255, 255, 255) ;
     background-color: rgb(0, 0, 0);
-    margin-left: 30px;
+    margin-left: 40px;
    
 }
 a:hover{
@@ -39,9 +39,25 @@ text-decoration: underline ;
 
 #search
 {position: relative;
-  left:160px  
-  
+  left:160px ; 
+  border-radius:10px;
+
 }
+
+
+#sub{
+    background-color: rgb(24, 188, 253);
+    position: relative;
+    left:170px;
+    width:70px;
+    border-radius: 10px;
+    color:white;
+}
+
+#sub:hover{
+    background-color: rgb(42, 147, 245);
+}
+
 
 
 /*screen part*/
@@ -103,11 +119,19 @@ body::before{
 
 
 /*vaccines part*/
+
+#avail
+{
+    padding:20px;
+    padding-top:70px;
+}
+
+
 #cont{
     display: flex;
-    margin:30px;
+    margin:0px;
     padding:20px;
-    margin-top: 0px;
+    
 }
 
 #v1
@@ -118,6 +142,7 @@ margin:5%;
 text-align: center;
 height:40%;
 padding: 40px;
+box-shadow: 10px 10px gray;
 
 transition: all 0.5s ease-in-out 0s;
  }
@@ -130,6 +155,8 @@ transition: all 0.5s ease-in-out 0s;
 text-align: center;
 height:40%;
 padding: 40px;
+box-shadow: 10px 10px gray;
+
 transition: all 0.5s ease-in-out 0s;
   }
   #v3
@@ -141,6 +168,8 @@ transition: all 0.5s ease-in-out 0s;
 text-align: center;
 height:40%;
 padding: 40px;
+box-shadow: 10px 10px gray;
+
 transition: all 0.5s ease-in-out 0s;
    }
   
@@ -165,7 +194,8 @@ transition: all 0.5s ease-in-out 0s;
 /*booking part*/
 #book
 {  background-color: rgb(162, 208, 250);
-
+padding:10px;
+padding-bottom: 50px;
 }
 
 #forms
@@ -192,3 +222,39 @@ border-radius: 10px;
 background-color: rgb(0, 255, 170);
 border-radius: 10px;
 }
+
+/*About part*/
+#about
+{ 
+ padding:10px;
+ padding-bottom: 70px;
+background-color: rgb(100, 255, 126);
+border: 2px 2px solid red;
+margin-top: 0px;
+}
+
+#abhi
+{  
+ border: 20px 20px solid rgb(255, 0, 0);
+  width:50%;
+  padding:60px;
+  margin:20px;
+  
+  text-align: center; 
+  background-color: antiquewhite;
+  position: relative;
+  left: 19%; 
+
+
+}
+
+footer{
+
+    background-color: rgb(26, 25, 25);
+    color:white;
+    padding:16px;
+    text-align: center;
+}
+
+
+
